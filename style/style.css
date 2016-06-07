@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+#container {
+  width: 450px;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+td {
+		border: 4px solid #2F2933;
+    border-radius: 10px;
+		width: 50px;
+    padding: 20px;
+    font-family: 'Special Elite', cursive;
+	}
+td:hover {
+  background-color: #01A2A6;
+  transition: background-color 0.2s linear;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  padding: 20px;
+}
+a:hover{
+  color: #BDF271;
+  transition: color 0.1s linear;
+}
+#results {
+	height: 23px;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+#results:hover {
+  background-color: white;
+}
